@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+ .GitHub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5remx;
+ }
+ .fa-brands{
+    font-size: 40px;
+ }
+
+
+ .into{
+    text-align: center;
+    font-weight: 300px;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.5px;
+    color: #59636e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+ }
+
+ form{
+    width:280px ;
+    background-color: rgb(246, 248, 250);
+    border-radius: 8px;
+    border: 1px solid #d1d9e0b3;
+    padding: 10px;
+    margin-top: 20px;
+
+ }
+
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    /* height: 30px; */
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    /* padding-left: 10px; */
+    /* padding-right: 20px; */
+    /* border-left: 10px; */
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 2px solid rgb(9, 105, 218);
+    outline: none; 
+}
+
+.forget{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1f8836;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.passkey {
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #d1d9e0b3;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(9, 105, 218);
+    font-size:12px
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ .create{
+    display: flex;
+    font-size: 14px;
+    gap: 5px;
+    margin-left: 10px;
+}
+.sign{
+    font-weight: bold;
+}
+
+
+.footer {
+    margin-top: auto;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin: 0 8px;
+}
+
+.footer ul li a {
+    color: #6a737d;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
